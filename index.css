@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background: linear-gradient(to right, #ff6ec4, #7873f5, #4ade80);
+  background-size: 200% 200%;
+  animation: gradientShift 10s ease infinite;
+  color: white;
+}
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.flash{
+    background-color: #fff;
+}
+.userflash{
+    background-color: white;
+}
